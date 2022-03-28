@@ -1,0 +1,36 @@
+{
+  "name": "metadata",
+  "version": "0.1.0",
+  "description": "Scrape metadata from websites.",
+  "scripts": {
+    "dev": "esno api/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xdlrt/metadata.git"
+  },
+  "author": "yeshu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xdlrt/metadata/issues"
+  },
+  "homepage": "https://github.com/xdlrt/metadata#readme",
+  "devDependencies": {
+    "@vercel/node": "^1.14.0",
+    "esno": "^0.14.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "got": "^12.0.3",
+    "metascraper": "^5.28.2",
+    "metascraper-audio": "^5.28.2",
+    "metascraper-author": "^5.28.2",
+    "metascraper-clearbit": "^5.28.2",
+    "metascraper-date": "^5.28.2",
+    "metascraper-description": "^5.28.2",
+    "metascraper-image": "^5.28.2",
+    "metascraper-logo": "^5.28.2",
+    "metascraper-logo-favicon": "^5.28.3",
+    "metascraper-media-provider": "^5.28.2"
+  }
+}
