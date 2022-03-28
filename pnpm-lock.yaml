@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@vercel/node': ^1.14.0
   esno: ^0.14.1
-  got: ^12.0.3
+  got: ^11.8.2
   metascraper: ^5.28.2
   metascraper-audio: ^5.28.2
   metascraper-author: ^5.28.2
@@ -17,7 +17,7 @@ specifiers:
   typescript: ^4.6.3
 
 dependencies:
-  got: registry.npmmirror.com/got/12.0.3
+  got: registry.npmmirror.com/got/11.8.2
   metascraper: registry.npmmirror.com/metascraper/5.28.2
   metascraper-audio: registry.npmmirror.com/metascraper-audio/5.28.2
   metascraper-author: registry.npmmirror.com/metascraper-author/5.28.2
@@ -133,15 +133,6 @@ packages:
     name: '@szmarczak/http-timer'
     version: 4.0.6
     engines: {node: '>=10'}
-    dependencies:
-      defer-to-connect: registry.npmmirror.com/defer-to-connect/2.0.1
-    dev: false
-
-  registry.npmmirror.com/@szmarczak/http-timer/5.0.1:
-    resolution: {integrity: sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@szmarczak/http-timer/-/http-timer-5.0.1.tgz}
-    name: '@szmarczak/http-timer'
-    version: 5.0.1
-    engines: {node: '>=14.16'}
     dependencies:
       defer-to-connect: registry.npmmirror.com/defer-to-connect/2.0.1
     dev: false
@@ -421,13 +412,6 @@ packages:
     resolution: {integrity: sha512-2/kNscPhpcxrOigMZzbiWF7dz8ilhb/nIHU3EyZiXWXpeq/au8qJ8VhdftMkty3n7Gj6HIGalQG8oiBNB3AJgA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cacheable-lookup/-/cacheable-lookup-5.0.4.tgz}
     name: cacheable-lookup
     version: 5.0.4
-    engines: {node: '>=10.6.0'}
-    dev: false
-
-  registry.npmmirror.com/cacheable-lookup/6.0.4:
-    resolution: {integrity: sha512-mbcDEZCkv2CZF4G01kr8eBd/5agkt9oCqz75tJMSIsquvRZ2sL6Hi5zGVKi/0OSC9oO1GHfJ2AV0ZIOY9vye0A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cacheable-lookup/-/cacheable-lookup-6.0.4.tgz}
-    name: cacheable-lookup
-    version: 6.0.4
     engines: {node: '>=10.6.0'}
     dev: false
 
@@ -1222,12 +1206,6 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  registry.npmmirror.com/form-data-encoder/1.7.1:
-    resolution: {integrity: sha512-EFRDrsMm/kyqbTQocNvRXMLjc7Es2Vk+IQFx/YW7hkUH1eBl4J1fqiP34l74Yt0pFLCNpc06fkbVk00008mzjg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/form-data-encoder/-/form-data-encoder-1.7.1.tgz}
-    name: form-data-encoder
-    version: 1.7.1
-    dev: false
-
   registry.npmmirror.com/form-data/4.0.0:
     resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/form-data/-/form-data-4.0.0.tgz}
     name: form-data
@@ -1299,6 +1277,25 @@ packages:
       path-is-absolute: registry.npmmirror.com/path-is-absolute/1.0.1
     dev: false
 
+  registry.npmmirror.com/got/11.8.2:
+    resolution: {integrity: sha512-D0QywKgIe30ODs+fm8wMZiAcZjypcCodPNuMz5H9Mny7RJ+IjJ10BdmGW7OM7fHXP+O7r6ZwapQ/YQmMSvB0UQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/got/-/got-11.8.2.tgz}
+    name: got
+    version: 11.8.2
+    engines: {node: '>=10.19.0'}
+    dependencies:
+      '@sindresorhus/is': registry.npmmirror.com/@sindresorhus/is/4.6.0
+      '@szmarczak/http-timer': registry.npmmirror.com/@szmarczak/http-timer/4.0.6
+      '@types/cacheable-request': registry.npmmirror.com/@types/cacheable-request/6.0.2
+      '@types/responselike': registry.npmmirror.com/@types/responselike/1.0.0
+      cacheable-lookup: registry.npmmirror.com/cacheable-lookup/5.0.4
+      cacheable-request: registry.npmmirror.com/cacheable-request/7.0.2
+      decompress-response: registry.npmmirror.com/decompress-response/6.0.0
+      http2-wrapper: registry.npmmirror.com/http2-wrapper/1.0.3
+      lowercase-keys: registry.npmmirror.com/lowercase-keys/2.0.0
+      p-cancelable: registry.npmmirror.com/p-cancelable/2.1.1
+      responselike: registry.npmmirror.com/responselike/2.0.0
+    dev: false
+
   registry.npmmirror.com/got/11.8.3:
     resolution: {integrity: sha512-7gtQ5KiPh1RtGS9/Jbv1ofDpBFuq42gyfEib+ejaRBJuj/3tQFeR5+gw57e4ipaU8c/rCjvX6fkQz2lyDlGAOg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/got/-/got-11.8.3.tgz}
     name: got
@@ -1315,27 +1312,6 @@ packages:
       http2-wrapper: registry.npmmirror.com/http2-wrapper/1.0.3
       lowercase-keys: registry.npmmirror.com/lowercase-keys/2.0.0
       p-cancelable: registry.npmmirror.com/p-cancelable/2.1.1
-      responselike: registry.npmmirror.com/responselike/2.0.0
-    dev: false
-
-  registry.npmmirror.com/got/12.0.3:
-    resolution: {integrity: sha512-hmdcXi/S0gcAtDg4P8j/rM7+j3o1Aq6bXhjxkDhRY2ipe7PHpvx/14DgTY2czHOLaGeU8VRvRecidwfu9qdFug==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/got/-/got-12.0.3.tgz}
-    name: got
-    version: 12.0.3
-    engines: {node: '>=14.16'}
-    dependencies:
-      '@sindresorhus/is': registry.npmmirror.com/@sindresorhus/is/4.6.0
-      '@szmarczak/http-timer': registry.npmmirror.com/@szmarczak/http-timer/5.0.1
-      '@types/cacheable-request': registry.npmmirror.com/@types/cacheable-request/6.0.2
-      '@types/responselike': registry.npmmirror.com/@types/responselike/1.0.0
-      cacheable-lookup: registry.npmmirror.com/cacheable-lookup/6.0.4
-      cacheable-request: registry.npmmirror.com/cacheable-request/7.0.2
-      decompress-response: registry.npmmirror.com/decompress-response/6.0.0
-      form-data-encoder: registry.npmmirror.com/form-data-encoder/1.7.1
-      get-stream: registry.npmmirror.com/get-stream/6.0.1
-      http2-wrapper: registry.npmmirror.com/http2-wrapper/2.1.10
-      lowercase-keys: registry.npmmirror.com/lowercase-keys/3.0.0
-      p-cancelable: registry.npmmirror.com/p-cancelable/3.0.0
       responselike: registry.npmmirror.com/responselike/2.0.0
     dev: false
 
@@ -1416,16 +1392,6 @@ packages:
     resolution: {integrity: sha512-V+23sDMr12Wnz7iTcDeJr3O6AIxlnvT/bmaAAAP/Xda35C90p9599p0F1eHR/N1KILWSoWVAiOMFjBBXaXSMxg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/http2-wrapper/-/http2-wrapper-1.0.3.tgz}
     name: http2-wrapper
     version: 1.0.3
-    engines: {node: '>=10.19.0'}
-    dependencies:
-      quick-lru: registry.npmmirror.com/quick-lru/5.1.1
-      resolve-alpn: registry.npmmirror.com/resolve-alpn/1.2.1
-    dev: false
-
-  registry.npmmirror.com/http2-wrapper/2.1.10:
-    resolution: {integrity: sha512-QHgsdYkieKp+6JbXP25P+tepqiHYd+FVnDwXpxi/BlUcoIB0nsmTOymTNvETuTO+pDuwcSklPE72VR3DqV+Haw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/http2-wrapper/-/http2-wrapper-2.1.10.tgz}
-    name: http2-wrapper
-    version: 2.1.10
     engines: {node: '>=10.19.0'}
     dependencies:
       quick-lru: registry.npmmirror.com/quick-lru/5.1.1
@@ -1706,13 +1672,6 @@ packages:
     name: lowercase-keys
     version: 2.0.0
     engines: {node: '>=8'}
-    dev: false
-
-  registry.npmmirror.com/lowercase-keys/3.0.0:
-    resolution: {integrity: sha512-ozCC6gdQ+glXOQsveKD0YsDy8DSQFjDTz4zyzEHNV5+JP5D62LmfDZ6o1cycFx9ouG940M5dE8C8CTewdj2YWQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/lowercase-keys/-/lowercase-keys-3.0.0.tgz}
-    name: lowercase-keys
-    version: 3.0.0
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: false
 
   registry.npmmirror.com/lru-cache/6.0.0:
@@ -2247,13 +2206,6 @@ packages:
     name: p-cancelable
     version: 2.1.1
     engines: {node: '>=8'}
-    dev: false
-
-  registry.npmmirror.com/p-cancelable/3.0.0:
-    resolution: {integrity: sha512-mlVgR3PGuzlo0MmTdk4cXqXWlwQDLnONTAg6sm62XkMJEiRxN3GL3SffkYvqwonbkJBcrI7Uvv5Zh9yjvn2iUw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/p-cancelable/-/p-cancelable-3.0.0.tgz}
-    name: p-cancelable
-    version: 3.0.0
-    engines: {node: '>=12.20'}
     dev: false
 
   registry.npmmirror.com/p-do-whilst/1.1.0:

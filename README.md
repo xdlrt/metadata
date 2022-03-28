@@ -7,7 +7,7 @@
 Enter a valid `$URL` as params
 
 ```bash
-curl https://metafy.vercel.app/api?url=$URL
+curl https://metadata-lilac.vercel.app/api?url=$URL
 ```
 
 ## Tech Stack
