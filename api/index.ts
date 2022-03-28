@@ -18,7 +18,6 @@ const metascraper = require('metascraper')([
 const scrapeMetaData = async (
   targetUrl: string = 'https://github.com/xdlrt/metadata'
 ) => {
-  // @ts-ignore
   const { body: html, url } = await got(targetUrl)
   const metadata = await metascraper({ html, url })
   return metadata
