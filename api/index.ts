@@ -35,7 +35,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   const metadata = await scrapeMetaData(url)
-  res.json(metadata)
+  return res.json(metadata)
 }
 
 // for dev
