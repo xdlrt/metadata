@@ -31,6 +31,8 @@
     "metascraper-image": "^5.28.2",
     "metascraper-logo": "^5.28.2",
     "metascraper-logo-favicon": "^5.28.3",
-    "metascraper-media-provider": "^5.28.2"
+    "metascraper-media-provider": "^5.28.2",
+    "metascraper-title": "^5.28.2",
+    "metascraper-video": "^5.28.2"
   }
 }

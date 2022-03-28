@@ -14,6 +14,8 @@ specifiers:
   metascraper-logo: ^5.28.2
   metascraper-logo-favicon: ^5.28.3
   metascraper-media-provider: ^5.28.2
+  metascraper-title: ^5.28.2
+  metascraper-video: ^5.28.2
   typescript: ^4.6.3
 
 dependencies:
@@ -28,6 +30,8 @@ dependencies:
   metascraper-logo: registry.npmmirror.com/metascraper-logo/5.28.2
   metascraper-logo-favicon: registry.npmmirror.com/metascraper-logo-favicon/5.28.3
   metascraper-media-provider: registry.npmmirror.com/metascraper-media-provider/5.28.2
+  metascraper-title: registry.npmmirror.com/metascraper-title/5.28.2
+  metascraper-video: registry.npmmirror.com/metascraper-video/5.28.2
 
 devDependencies:
   '@vercel/node': registry.npmmirror.com/@vercel/node/1.14.0
@@ -1896,6 +1900,39 @@ packages:
       - bufferutil
       - canvas
       - encoding
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  registry.npmmirror.com/metascraper-title/5.28.2:
+    resolution: {integrity: sha512-n4mkkHAlDS+fZtMMxHpnHRxocw+fLCxj4rkyDKWwlmnI0fk47Ii3lu0GrPjPIgAOqnYoMtH/rrpTQZM+5/WEpQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/metascraper-title/-/metascraper-title-5.28.2.tgz}
+    name: metascraper-title
+    version: 5.28.2
+    engines: {node: '>= 12'}
+    dependencies:
+      '@metascraper/helpers': registry.npmmirror.com/@metascraper/helpers/5.28.2
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - supports-color
+      - utf-8-validate
+    dev: false
+
+  registry.npmmirror.com/metascraper-video/5.28.2:
+    resolution: {integrity: sha512-1Z4hr1ARjLUDzNdC95JXtkLj0sXezHzPHLSoSrEM4NcDzafLqeXJ6L7kv8YzooUFm6iT/W9zpW6VXYvbV5rGsw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/metascraper-video/-/metascraper-video-5.28.2.tgz}
+    name: metascraper-video
+    version: 5.28.2
+    engines: {node: '>= 12'}
+    dependencies:
+      '@keyvhq/memoize': registry.npmmirror.com/@keyvhq/memoize/1.6.6
+      '@metascraper/helpers': registry.npmmirror.com/@metascraper/helpers/5.28.2
+      cheerio: registry.npmmirror.com/cheerio/1.0.0-rc.10
+      got: registry.npmmirror.com/got/11.8.3
+      lodash: registry.npmmirror.com/lodash/4.17.21
+      p-reflect: registry.npmmirror.com/p-reflect/2.1.0
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
       - supports-color
       - utf-8-validate
     dev: false
