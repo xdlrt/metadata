@@ -18,6 +18,7 @@ const metascraper = require('metascraper')([
 const scrapeMetaData = async (
   targetUrl: string = 'https://github.com/xdlrt/metadata'
 ) => {
+  // @ts-ignore
   const { body: html, url } = await got(targetUrl)
   const metadata = await metascraper({ html, url })
   return metadata
@@ -35,7 +36,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   const metadata = await scrapeMetaData(url)
-  return res.json(metadata)
+  res.json(metadata)
+  return
 }
 
 // for dev
